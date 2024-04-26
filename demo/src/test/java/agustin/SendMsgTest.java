@@ -12,7 +12,7 @@ public class SendMsgTest extends BaseTest {
     public void testAction1() {
         driver.get(getBaseUrl());
         loginHelper = new LoginHelper(driver);
-        sendMsgPage = new SendMsgPage(driver); // Inicialización aquí
+        sendMsgPage = new SendMsgPage(driver);
 
         String validEmail = TestHelper.getValidEmail();
         String validPassword = TestHelper.getValidPassword();

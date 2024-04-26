@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import agustin.utils.TestHelper;
 // import agustin.api.ApiPage;
 import io.restassured.response.Response;
 
@@ -21,12 +22,13 @@ public class ApiPageTest {
 
     @Test
     public void testSendMessage() {
-        String apiKey = "Ykuuml1MJyzptuPQ3s6aTP2LOBNO8tur";
-        String apiToken = "H0KO1710181426";
-        String route = "226";
-        String from = "directv-2agus";
-        String to = "5491140843674";
-        String text = "Mensaje+desde+API+Selenium+putito";
+        // Obteniendo los valores del dotenv utilizando TestHelper
+        String apiKey = TestHelper.getApiKey();
+        String apiToken = TestHelper.getApiToken();
+        String route = TestHelper.getRoute();
+        String from = TestHelper.getFrom();
+        String to = TestHelper.getTo();
+        String text = "Mensaje+desde+API+Selenium";
 
         // Llama al método sendMessage del ApiPage
         Response response = apiPage.sendMessage(apiKey, apiToken, route, from, to, text);

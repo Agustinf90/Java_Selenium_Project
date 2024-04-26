@@ -13,7 +13,6 @@ import agustin.utils.TestHelper;
 public class LoginPage extends BasePage {
 
     // Locators:
-    private By loginIonik = By.xpath("//div[text()='Iniciar sesi\u00F3n']");
     private By emailInput = By.xpath("//input[@id='emails']");
     private By passInput = By.xpath("//input[@id='password']");
     private By loginSbmt = By.xpath("//button[@id='login-button']");
