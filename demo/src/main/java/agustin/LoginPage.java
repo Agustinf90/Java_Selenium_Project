@@ -20,6 +20,10 @@ public class LoginPage extends BasePage {
     private By invalidCredentialsMsg = By.xpath("//p[normalize-space(text())='Your email or password is incorrect!']");
     private By divPageTitle = By.xpath("//div[@id='page-title']");
     private By divStartPage = By.xpath("//div[@id='toast-container']");
+    public static By forgotPasswordLink = By.xpath(("//a[@id='forgot-link']"));
+    private By restartPasswordDiv = By.xpath("//div[text()='Resetear Contraseña']");
+    private By inputRestorePassword = By.xpath("//input[@id='emaila']");
+     public static By resetPasswordButton = By.xpath(("//button[@id='reset-button']"));
     // Constructor:
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -36,6 +40,10 @@ public class LoginPage extends BasePage {
 
     public void typeEmail(String text) {
         type(emailInput, text);
+    }
+
+    public void typeEmailRestore(String text) {
+    type(inputRestorePassword, text);
     }
 
     public void typePassword(String text) {
@@ -57,5 +65,10 @@ public class LoginPage extends BasePage {
     public WebElement waitForPageTitle() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(divPageTitle));
+    }
+
+        public WebElement waitForPasswordDiv() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(restartPasswordDiv));
     }
 }

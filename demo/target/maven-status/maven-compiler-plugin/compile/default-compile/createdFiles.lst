@@ -1,4 +1,5 @@
 agustin\utils\TestHelper.class
+agustin\api\ApiPage.class
 agustin\BasePage.class
 agustin\HomePage.class
 agustin\LoginPage.class

@@ -1,4 +1,6 @@
 agustin\LoginTest.class
+agustin\api\ApiPageTest.class
 agustin\AppTest.class
 agustin\BaseTest.class
 agustin\SendMsgTest.class
+agustin\TestHelperTest.class

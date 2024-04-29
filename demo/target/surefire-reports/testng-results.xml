@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-29T18:58:05 ART" name="Suite de Pruebas" finished-at="2024-04-29T18:58:39 ART" duration-ms="34162">
+    <groups>
+    </groups>
+    <test started-at="2024-04-29T18:58:05 ART" name="Login Test" finished-at="2024-04-29T18:58:35 ART" duration-ms="29907">
+      <class name="agustin.LoginTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:05 ART" name="setupClass" finished-at="2024-04-29T18:58:05 ART" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:05 ART" name="setup" finished-at="2024-04-29T18:58:06 ART" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="restorePasswordInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:06 ART" name="restorePasswordInvalidCredentials" data-provider="invalidLoginCredentials" finished-at="2024-04-29T18:58:11 ART" duration-ms="4756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[af12@mail2.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restorePasswordInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:11 ART" name="tearDown" finished-at="2024-04-29T18:58:11 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:11 ART" name="setup" finished-at="2024-04-29T18:58:12 ART" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="restorePassworrdInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:12 ART" name="restorePassworrdInvalidCredentials" data-provider="validLoginCredentials" finished-at="2024-04-29T18:58:16 ART" duration-ms="4360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[directv@ioniksend.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hola2023]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[af12@mail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restorePassworrdInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:16 ART" name="tearDown" finished-at="2024-04-29T18:58:16 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:16 ART" name="setup" finished-at="2024-04-29T18:58:18 ART" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:18 ART" name="testInvalidLogin" data-provider="invalidLoginCredentials" finished-at="2024-04-29T18:58:22 ART" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[af12@mail2.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:22 ART" name="tearDown" finished-at="2024-04-29T18:58:22 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:22 ART" name="setup" finished-at="2024-04-29T18:58:23 ART" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:23 ART" name="testValidLogin" data-provider="validLoginCredentials" finished-at="2024-04-29T18:58:35 ART" duration-ms="11403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[directv@ioniksend.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hola2023]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[af12@mail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:agustin.LoginTest@78b1cc93]" started-at="2024-04-29T18:58:35 ART" name="tearDown" finished-at="2024-04-29T18:58:35 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- agustin.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2024-04-29T18:58:35 ART" name="Send Message Test" finished-at="2024-04-29T18:58:39 ART" duration-ms="4174">
+      <class name="agustin.SendMsgTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:agustin.SendMsgTest@4f638935]" started-at="2024-04-29T18:58:35 ART" name="setupClass" finished-at="2024-04-29T18:58:35 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:agustin.SendMsgTest@4f638935]" started-at="2024-04-29T18:58:35 ART" name="setup" finished-at="2024-04-29T18:58:36 ART" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAction1()[pri:0, instance:agustin.SendMsgTest@4f638935]" started-at="2024-04-29T18:58:36 ART" name="testAction1" finished-at="2024-04-29T18:58:39 ART" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAction1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:agustin.SendMsgTest@4f638935]" started-at="2024-04-29T18:58:39 ART" name="tearDown" finished-at="2024-04-29T18:58:39 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- agustin.SendMsgTest -->
+    </test> <!-- Send Message Test -->
+  </suite> <!-- Suite de Pruebas -->
+</testng-results>

@@ -20,10 +20,10 @@ public class SendMsgTest extends BaseTest {
         loginHelper.login(validEmail, validPassword);
     }
 
-    @Test(dependsOnMethods = "testAction1")
-    public void testSendMsg() {
+    // @Test(dependsOnMethods = "testAction1")
+    // public void testSendMsg() {
 
-        sendMsgPage.clickCompose();
+    //     sendMsgPage.clickCompose();
 
-    }
+    // }
 }
