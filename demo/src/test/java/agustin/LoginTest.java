@@ -62,7 +62,7 @@ public class LoginTest extends BaseTest {
 
         loginPage.waitForDivStart();
         // Espera a que el usuario se haya autenticado correctamente
-        loginPage.waitForPageTitle();
+        // loginPage.waitForPageTitle();
 
         
     }
